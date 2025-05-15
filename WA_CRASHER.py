@@ -61,7 +61,7 @@ def main():
 	print()
 	cncode=int(input(f'{G}[{Y}+{G}]{M} Enter Country Code WithOut "+" eg.91 {C}=> '))
 	print()
-	num=input(f"{G}[{Y}+{G}]{M} Enter the Victim's Phone number\n\n{C}=> {cncode}  ")
+	num=input(f"{G}[{Y}+{G}]{M} Enter the Victim's Phone number\n\n{C}=> {07043373625}  ")
 	print()
 	crash=int(input(f'{G}[{Y}+{G}]{M} Enter the number of crashes {W}(Max 15 per 30min) \n\n{C}=> '))
 	combnum = f"+{cncode}{num}"
